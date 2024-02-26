@@ -1,0 +1,16 @@
+integer currValue
+integer valuesSum
+integer numValues
+integer i
+float averageValue
+
+numValues = Get next input
+valuesSum = 0
+
+for i = 0; i < numValues; i = i + 1
+   currValue = Get next input
+   valuesSum = valuesSum + currValue
+
+averageValue = (1.0 * valuesSum) / numValues
+Put "Average: " to output
+Put averageValue to output
